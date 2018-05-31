@@ -1,2 +1,2 @@
-# LSTM
-Next word prediction
+# TextPrediction
+Text prediction using LSTM
