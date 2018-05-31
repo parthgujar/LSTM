@@ -5,7 +5,7 @@ Run with either "train" or "test" mode
 
 1. Train mode:
 
-    python words_prediction_lstm.py <mode> <data_file> <model_file> <max_update> <regularization> <learning_rate>
+    python words_prediction_lstm.py %<mode> <data_file> <model_file> <max_update> <regularization> <learning_rate>
   
    
       <mode>          : train
