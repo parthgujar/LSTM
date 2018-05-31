@@ -9,6 +9,7 @@ Run with either "train" or "test" mode
   
    
       <mode>          : train
+
       <data_file>     : training data file
       <model_file>    : model file (to save optimized paramaters of the model after training)
       <max_update>    : maximum number of update
