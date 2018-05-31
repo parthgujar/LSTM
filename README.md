@@ -7,14 +7,14 @@ Run with either "train" or "test" mode
 
     python words_prediction_lstm.py <mode> <data_file> <model_file> <max_update> <regularization> <learning_rate>
   
-    {
+   
       <mode>          : train
       <data_file>     : training data file
       <model_file>    : model file (to save optimized paramaters of the model after training)
       <max_update>    : maximum number of update
       <regularization>: L1 or L2 or none
       <learning_rate> : learning rate of model
-    }
+   
 
     e.g: words_prediction_lstm.py train input.txt model_file 5000 L1 0.001
 
