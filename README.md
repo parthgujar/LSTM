@@ -1,4 +1,4 @@
-## TextPrediction
+# TextPrediction
 Text prediction using LSTM
 
 Run with either "train" or "test" mode
@@ -20,13 +20,11 @@ Run with either "train" or "test" mode
 
     python words_prediction_lstm 'mode' 'data_file' 'model_file' 'sample_text' 'newtext_length'
   
-    {
       mode              : test
       data_file         : data file (to check new generated text)
       model_file        : model file (saved from train step)
       sample_text       : feed the first text for LSTM to generate new words (by default,
                              the current setting is 3 words. Is is defined as num_input paramater in words_prediction_lstm.py
       newtext_length    : the length of new text, e.g : 50 words
-    }
         
-    For example: words_prediction_lstm test input.txt model_file "had a general" 50
+    e.g : words_prediction_lstm test input.txt model_file "had a general" 50
