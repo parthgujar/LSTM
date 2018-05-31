@@ -8,7 +8,7 @@ Run with either "train" or "test" mode
     python words_prediction_lstm.py %<mode> <data_file> <model_file> <max_update> <regularization> <learning_rate>
   
    
-      <mode>          : train
+      <Mode>          : train
 
       <data_file>     : training data file
       <model_file>    : model file (to save optimized paramaters of the model after training)
